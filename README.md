@@ -1,4 +1,5 @@
-# It is an application where you can write what you need to do and then you can edit, delete and mark as completed tasks or you can move them to completed tasks 📌✔️ # With pure TypeScript
+# It is an application where you can write what you need to do and then you can edit, delete and mark as completed tasks or you can move them to completed tasks 📌✔️ 
+# With pure TypeScript
 
 
 # Getting Started with Create React App

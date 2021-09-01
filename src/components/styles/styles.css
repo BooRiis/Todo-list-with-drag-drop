@@ -1,0 +1,169 @@
+@charset "UTF-8";
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input__box {
+  width: 100%;
+  border-radius: 3.125em;
+  padding: 1.25em 1.875em;
+  font-size: 1.5625em;
+  border: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: inset 0 0 0.3125em #000;
+          box-shadow: inset 0 0 0.3125em #000;
+}
+
+.input__box:focus {
+  -webkit-box-shadow: 0 0 0.625em 62.5em rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 0.625em 62.5em rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+
+.input__submit {
+  position: absolute;
+  width: 4.375em;
+  height: 4.375em;
+  margin: 0.75em;
+  border-radius: 3.125em;
+  right: 0em;
+  border: none;
+  font-size: 0.9375em;
+  background-color: #2f74c0;
+  color: #fff;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  -webkit-box-shadow: 0 0 0.625em #000;
+          box-shadow: 0 0 0.625em #000;
+}
+
+.input__submit:hover {
+  background-color: #388ae2;
+}
+
+.input__submit:active {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-box-shadow: 0 0 0.3125em #000;
+          box-shadow: 0 0 0.3125em #000;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  margin-top: 0.625em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.todos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 47.5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.9375em;
+  border-radius: 0.3125em;
+  background-color: #32c3cd;
+}
+
+.todos__heading {
+  font-size: 1.875em;
+  color: #fff;
+}
+
+.todos__single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0.3125em;
+  padding: 1.25em;
+  margin-top: 15px;
+  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background--close-up_60487-2390.jpg?size=626&ext-jpg");
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.todos__single:hover {
+  -webkit-box-shadow: 0 0 0.3125em #000;
+          box-shadow: 0 0 0.3125em #000;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.todos__single--text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 1.25em;
+}
+
+.todos__single--text:focus ˘ {
+  outline: none;
+}
+
+.icon {
+  margin-left: 0.625em;
+  font-size: 1.5625em;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .todos {
+    width: 45%;
+  }
+}
+
+@media (max-width: 700px) {
+  .input {
+    width: 95%;
+  }
+  .todos {
+    width: 95%;
+    margin-bottom: 0.625em;
+  }
+  .container {
+    width: 95%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.remove {
+  background-color: #eb6750;
+}
+
+.dragactive {
+  background-color: #00ddec;
+}
+
+.dragremove {
+  background-color: #ff2600;
+}
+
+.drag {
+  -webkit-box-shadow: 0 0 1.25em #000;
+          box-shadow: 0 0 1.25em #000;
+}
+/*# sourceMappingURL=styles.css.map */

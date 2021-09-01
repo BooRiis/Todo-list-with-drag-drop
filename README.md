@@ -1,3 +1,6 @@
+# It is an application where you can write what you need to do and then you can edit, delete and mark as completed tasks or you can move them to completed tasks 📌✔️
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
